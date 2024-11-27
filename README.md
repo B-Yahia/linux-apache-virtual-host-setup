@@ -1,5 +1,5 @@
 # linux-apache-virtual-host-setup
-A guide to setting up several Virtual Hosts in Apache on Linux, allowing you to host and serve multiple applications on different ports.
+A guide to setting up several Virtual Hosts in Apache on Linux, allowing you to host and serve multiple PHP applications on different ports.
 
 ---
 
