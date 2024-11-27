@@ -69,8 +69,8 @@ sudo systemctl restart apache2
 ```
 Visit the applications in your browser:
 
-http://<your-server-ip>:8081
-http://<your-server-ip>:8082
-http://<your-server-ip>:8083
+http://your-server-ip:8081
+http://your-server-ip:8082
+http://your-server-ip:8083
 
-Replace <your-server-ip> with the actual IP address of your server and you will be able to access each of the PHP apps deployed in VHs.
+Replace (your-server-ip) with the actual IP address of your server and you will be able to access each of the PHP apps deployed in VHs.
