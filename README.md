@@ -15,9 +15,9 @@ Before you begin, ensure you have:
 Create directories to hold the files for each application:
 
 ```bash
-sudo mkdir /var/www/app1
-sudo mkdir /var/www/app2
-sudo mkdir /var/www/app3
+sudo mkdir /var/www/html/app1
+sudo mkdir /var/www/html/app2
+sudo mkdir /var/www/html/app3
 ```
 
 ### Step 2: Create Configuration Files for Each Virtual Host
@@ -30,8 +30,8 @@ Then Past the following code in the config file you created:
 
 ```bash
 <VirtualHost *:8081>
-    DocumentRoot /var/www/app1
-    <Directory /var/www/app1>
+    DocumentRoot /var/www/html/app1
+    <Directory /var/www/html/app1>
         AllowOverride All
         Require all granted
     </Directory>
