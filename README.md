@@ -39,7 +39,7 @@ Then Past the following code in the config file you created:
     CustomLog ${APACHE_LOG_DIR}/app1_access.log combined
 </VirtualHost>
 ```
-You can then create a similar config file for the **app2** and **app3**. Remember to change the **ports** and the **directory for Document Root**.
+You can then create a similar config file for the `app2` and `app3`. Remember to change the **ports** and the **directory for Document Root**.
 
 ###Step 3: Enable the Virtual Hosts
 Enable each Virtual Host with the a2ensite command:
@@ -50,7 +50,7 @@ sudo a2ensite app2.conf
 sudo a2ensite app3.conf
 ```
 ###Step 4: Update Apache to Listen on New Ports
-Edit the **ports.conf** file:
+Edit the `ports.conf` file:
 ```bash
 sudo nano /etc/apache2/ports.conf
 ````
@@ -69,8 +69,8 @@ sudo systemctl restart apache2
 ```
 Visit the applications in your browser:
 
-http://your-server-ip:8081
-http://your-server-ip:8082
-http://your-server-ip:8083
+`http://your-server-ip:8081`
+`http://your-server-ip:8082`
+`http://your-server-ip:8083`
 
-Replace (your-server-ip) with the actual IP address of your server and you will be able to access each of the PHP apps deployed in VHs.
+Replace `(your-server-ip)` with the actual IP address of your server and you will be able to access each of the PHP apps deployed in VHs.
